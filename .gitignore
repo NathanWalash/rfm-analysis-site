@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# Track these files
+!.gitignore
+!README.md
+
+# Allow our theme through
+!wp-content/
+!wp-content/themes/
+!wp-content/themes/rfm-analysis/
+!wp-content/themes/rfm-analysis/**
+
+# (Optional) allow custom plugins later
+!wp-content/plugins/
+!wp-content/plugins/**
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+*.env
+.env.*
