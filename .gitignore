@@ -1,24 +1,36 @@
-# Ignore everything by default
-*
-
-# Track these files
-!.gitignore
-!README.md
-
-# Allow our theme through
-!wp-content/
-!wp-content/themes/
-!wp-content/themes/rfm-analysis/
-!wp-content/themes/rfm-analysis/**
-
-# (Optional) allow custom plugins later
-!wp-content/plugins/
-!wp-content/plugins/**
-
-# OS/editor junk
+# OS / editor
 .DS_Store
 Thumbs.db
-node_modules/
+ehthumbs.db
+Icon?
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+~$*
+
+# Logs
 *.log
-*.env
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env / secrets
+.env
 .env.*
+
+# Node / build outputs (if you add a build step later)
+node_modules/
+dist/
+build/
+.cache/
+*.map
+
+# PHP / Composer (only if you use it later)
+vendor/
+composer.lock
+composer.phar
+
+# Archives
+*.zip
